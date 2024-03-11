@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Responsive Homework</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -15,26 +15,50 @@
     
 </head>
 <body>
-    <div class="hero">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kanengoni</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" title="Homepage">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" title="About Kanengoni T.P">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact" title="Contact Kanengoni T.P">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="hero mt-5">
     <p class="text-center">👋 Hello, I'm</p>
     <h1 class="text-center">Tambudzai P. Kanengoni</h1>
     <h2 class="mb-5 text-center">Front-end developer based in Zimbabwe</h2>
+    <div class="d-flex">
         <div class="btn-branding text-center">
     <a href="#" class="btn btn-primary">Contact Me</a>
         </div>
+        <div class="btn-branding text-center">
+            <a href="#" class="btn btn-primary">About Me</a>
+        </div>
+    </div>
    </div>
-
-   <p class="text-center m-5">Featured Project which my best project be choice to show</p>
-   
+     
 <div class="container">
     <div class="row mb-5">
         <div class="col d-none d-lg-block">
-            <img src="images/yogurt.png" class="img-fluid" alt="Yogurt image" /> 
+            <img src="images/yoga.png" class="img-fluid" alt="Yoga image" /> 
             
         </div>
         <div class="col">
             <div class="project-description">
-            <h2 class="mb-5">Yogurt Project</h2>
+            <h2 class="mb-5">Yoga App</h2>
             <p class="mb-5 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
              when an unknown printer took a galley of type and scrambled it to make a type 
@@ -43,15 +67,11 @@
              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
              and more recently with desktop publishing software like Aldus PageMaker 
              including versions of Lorem Ipsum</p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="#" class="btn btn-branding-outline">Launch Yoga App</a>
         </div>
         </div>
     </div>
     <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-            <img src="images/weather.png" class="img-fluid" alt="Weather image" /> 
-            
-        </div>
         <div class="col">
             <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
@@ -63,18 +83,22 @@
              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
              and more recently with desktop publishing software like Aldus PageMaker 
              including versions of Lorem Ipsum</p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="#" class="btn btn-branding-outline">Launch Weather App</a>
         </div>
+        </div>
+        <div class="col d-none d-lg-block">
+            <img src="images/weather.png" class="img-fluid" alt="Weather image" /> 
+            
         </div>
     </div>
     <div class="row mb-5">
         <div class="col d-none d-lg-block">
-            <img src="images/dictionary.png" class="img-fluid" alt="Dictionary" /> 
+            <img src="images/yogurt.png" class="img-fluid" alt="Yogurt" /> 
             
         </div>
         <div class="col">
             <div class="project-description">
-            <h2 class="mb-5">Dictionary</h2>
+            <h2 class="mb-5">Yogurt App</h2>
             <p class="mb-5 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
              when an unknown printer took a galley of type and scrambled it to make a type 
@@ -83,7 +107,7 @@
              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
              and more recently with desktop publishing software like Aldus PageMaker 
              including versions of Lorem Ipsum</p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="#" class="btn btn-branding-outline">Launch Yogurt App</a>
         </div>
         </div>
     </div>
