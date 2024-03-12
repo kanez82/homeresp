@@ -39,7 +39,7 @@ p{
     display: flex;
     margin-top: 40px; 
     justify-content: center;
-    box-sizing: var(--box-shadow);
+    border-radius: var(--box-shadow);
 } 
 .email-link{
     display: flex;
