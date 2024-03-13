@@ -39,6 +39,7 @@ p{
     display: flex;
     margin-top: 40px; 
     justify-content: center;
+    padding: 20px 15px;
     
 } 
 .navigation-links a{
